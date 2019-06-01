@@ -75,7 +75,6 @@ function openAt(screenPosition)
 		}
 	end
 
-	sb.logInfo("opening = "..sb.printJson(openInterface))
 	player.interact("ScriptPane", openInterface)
 end
 
