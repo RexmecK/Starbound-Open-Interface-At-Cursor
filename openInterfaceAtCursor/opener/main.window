@@ -1,0 +1,35 @@
+{
+	"gui" : {
+		"panefeature" : {
+			"type" : "panefeature",
+			"anchor" : "bottomLeft",
+			"positionLocked" : true
+		},
+
+		"background" : {
+			"zlevel" : -1,
+			"type" : "background",
+
+			"fileBody" : "/openInterfaceAtCursor/opener/image/body.png"
+		},
+
+		"cursor" : {
+			"zlevel" : 4,
+			"type" : "canvas",
+			"script" : "/openInterfaceAtCursor/opener/widgetScripts/openatcursor.lua",
+			"rect" : [0, 0, 3200, 3200],
+
+			"captureMouseEvents" : true,
+			"captureKeyboardEvents" : false
+		}
+	},
+
+	"canvasClickCallbacks" : {
+		"cursor" : "handleMouse"
+	},
+	
+	"mainScript" : "/openInterfaceAtCursor/opener/main.lua",
+    "localDir" : "/openInterfaceAtCursor/opener/",
+	"scripts" : ["/openInterfaceAtCursor/opener/scripts/core.lua"],
+	"scriptDelta" : 1
+}
