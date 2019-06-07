@@ -29,7 +29,7 @@
 	},
 	
 	"mainScript" : "/openInterfaceAtCursor/opener/main.lua",
-    "localDir" : "/openInterfaceAtCursor/opener/",
+	"localDir" : "/openInterfaceAtCursor/opener/",
 	"scripts" : ["/openInterfaceAtCursor/opener/scripts/core.lua"],
 	"scriptDelta" : 1
 }

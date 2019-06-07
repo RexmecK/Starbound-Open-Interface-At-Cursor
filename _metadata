@@ -1,7 +1,7 @@
 {
-  "version": "Alpha 1",
-  "friendlyName": "Starbound Open Interface At Cursor API",
-  "name": "openInterfaceAtCursor",
-  "author": "RexmecK",
-  "description": "Api to open interface at the cursor"
+	"version": "Alpha 1",
+	"friendlyName": "Starbound Open Interface At Cursor API",
+	"name": "openInterfaceAtCursor",
+	"author": "RexmecK",
+	"description": "Api to open interface at the cursor"
 }
